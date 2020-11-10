@@ -1,0 +1,85 @@
+
+
+.nav{
+    background-color: rgb(250, 250, 250);
+    color: rgb(102, 102, 102);
+    display: flex;
+    justify-content: space-between;
+    place-items: center;
+    min-height: 100px;
+}
+
+.nav-title{
+    padding: 10px;
+    margin-left: 25px;
+}
+.nav-title h4{
+    margin: 0;
+    padding: 0;
+    color: rgb(32, 32, 32);
+    font-weight: 700;
+}
+
+.sidenav-trigger{
+    margin-right: 25px;
+}
+/* burger icon */
+.burger-icon{
+    transform: scale(1.5);
+}
+
+
+/* WORKING ON THE SIDE BAR */
+#nav-mobile{
+    display: flex;
+}
+#nav-mobile li{
+    margin-right: 25px;
+}
+
+nav a{
+    color: rgb(107, 107, 107);
+}
+
+.user-view{
+    position: relative;
+    background-color: rgb(38, 22, 49);
+    background-image: url("../images/sidenav-back2.jpg");
+    background-size: cover;
+}
+.user-view a{
+    position: relative;
+    z-index: 1;
+}
+
+
+.sidenav-pic{
+    position: relative;
+    z-index: 1;
+    background-image: url("../images/self-pic1.png");
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.sidenav-background-black{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.507);
+    height: 100%;
+    width: 100%;
+    top:0;
+    left: 0;
+}
+
+@media screen and (max-width: 600px){
+    .nav{
+        min-height: 80px;
+    }
+    .nav-title h4{
+        font-size: .7em;
+    }
+    .burger-icon{
+        transform: scale(1.3);
+    }
+}

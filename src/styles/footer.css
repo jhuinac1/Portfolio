@@ -1,0 +1,38 @@
+footer{
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    /* background-color: gray; */
+    height: 70px;
+    border-top: 1px solid rgba(209, 209, 209, 0.384);
+}
+
+footer h5{
+    font-weight: 200;
+    font-size: 1.3em;
+    color: rgb(133, 133, 133);
+    margin: 0;
+}
+
+footer ul{
+    display: flex;
+    /* background-color: red; */
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 12px;
+    border-left: 1px solid rgba(182, 182, 182, 0.637);
+}
+
+footer li{
+    margin-left: 12px;
+}
+footer a{
+    color: rgb(133, 133, 133);
+    font-size: 1.6em;
+    transition: .3s ease-in-out;
+}
+footer a:hover{
+    color: rgb(29, 29, 29);
+}

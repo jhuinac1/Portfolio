@@ -1,14 +1,18 @@
 import React from 'react';
 import "./styles/index.css";
+import Nav from "./components/Nav";
+import Header from "./components/Header";
+import AboutMe from "./components/AboutMe";
+import Footer from "./components/Footer";
+import ProjectsSection from "./components/ProjectsSecion";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Portfolio
-        </p>
-
-      </header>
+      <Nav />
+      <Header />
+      <AboutMe />
+      <ProjectsSection />
+      <Footer />
     </div>
   );
 }
