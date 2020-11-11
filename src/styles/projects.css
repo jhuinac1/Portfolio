@@ -1,0 +1,38 @@
+
+#projects-container{
+    background-color: #EBEBEB;
+    color: rgb(73, 73, 73);
+    min-height: 500px;
+}
+#projects-container h2{
+    text-align: center;
+    padding: 25px;
+    font-weight: 200;
+}
+
+
+/* STYLING FOR THE INDIVIDUAL PROJECTS (CAROUSEL) */
+.projects{
+    background-color: rgb(199, 199, 199);
+    width: 80%;
+    height: 400px;
+    margin: auto;
+}
+.projects > a{
+    height: 200px;
+    width: 200px;
+}
+
+.project-one div{
+    background-image: url("../images/projects/wine-app.png");
+    background-size: cover;
+    height: 250px;
+    width: 250px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.carousel-item{
+    background-size: cover;
+}

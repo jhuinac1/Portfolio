@@ -26,7 +26,7 @@ export default function Nav() {
             <a href="#" data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons burger-icon">menu</i></a>
             <ul id="nav-mobile" className="right hide-on-med-and-down">
                 <li><a href="#about-me">About Me</a></li>
-                <li><a href="badges.html">Projects</a></li>
+                <li><a href="#projects-container">Projects</a></li>
                 <li><a href="collapsible.html">Contact Me</a></li>
             </ul>
 
@@ -40,7 +40,7 @@ export default function Nav() {
                         <a href="#email"><span className="white-text email">jhuinac7@gmail.com</span></a>
                     </div></li>
                 <li><a href="#about-me">About Me</a></li>
-                <li><a href="badges.html">Projects</a></li>
+                <li><a href="#projects-container">Projects</a></li>
                 <li><a href="collapsible.html">Contact Me</a></li>
             </ul>
         </nav>
