@@ -6,7 +6,7 @@ export default function Header() {
         <header id="name">
             <div>
                 <h1 >Hello!</h1>
-                <h5 >My name is Johnny. I have acquired skills on front-end, back-end, and version control. I am excited to continue my journey as a Software Engineer</h5>
+                <h5 >I'm Johnny. I'm full-stack software engineer based in Seattle, WA. I'm excited to continue my journey as a web developer</h5>
             </div>
         </header>
     )

@@ -1,6 +1,6 @@
 
 #projects-container{
-    background-color: #EBEBEB;
+    /* background-color: #EBEBEB; */
     color: rgb(73, 73, 73);
     min-height: 500px;
 }
@@ -13,26 +13,76 @@
 
 /* STYLING FOR THE INDIVIDUAL PROJECTS (CAROUSEL) */
 .projects{
-    background-color: rgb(199, 199, 199);
+    /* background-color: rgb(243, 243, 243); */
     width: 80%;
-    height: 400px;
+    min-height: 400px;
     margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
-.projects > a{
-    height: 200px;
-    width: 200px;
+.project-card{
+    background-color: rgb(238, 238, 238);
+    width:270px;
+    color: rgb(94, 94, 94);
+    margin-bottom: 20px;
 }
-
-.project-one div{
-    background-image: url("../images/projects/wine-app.png");
-    background-size: cover;
+.image-container{
+    width: 270px;
     height: 250px;
-    width: 250px;
+    overflow: hidden;
+    background-size: cover;
     color: white;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
 }
-.carousel-item{
-    background-size: cover;
+.project-link{
+    background-color: rgba(0, 0, 0, 0.616);
+    margin: 0;
+    height: 100%;
+    text-align: center;
+    font-weight: 800;
+    display: flex;
+    transform: translateY(250px);
+    place-items: center;
+    justify-content: center;
+    font-size: 5em;
+    transition: .5s ease-in-out;
+}
+
+.image-container:hover > .project-link{
+    transform: translateY(0);
+}
+
+.project-title{
+    text-align: center;
+    margin: 0;
+    margin-top: 5px;
+}
+
+.project-description{
+    padding: 12px;
+    text-align: justify;
+    line-height: 1.2;
+}
+
+/* project background images */
+.image-one{
+    background-image: url("../images/projects/wine-app.png");
+}
+.image-two{
+    background-image: url("../images/projects/food-recipe.png");
+    background-position: center;
+}
+.image-three{
+    background-image: url("../images/projects/chisme-app.png");
+}
+
+.image-four{
+    background-image: url("../images/projects/garage-app.png");
+}
+
+.image-five{
+    background-image: url("../images/projects/jokez-app.png");
 }

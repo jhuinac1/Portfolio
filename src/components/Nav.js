@@ -27,7 +27,7 @@ export default function Nav() {
             <ul id="nav-mobile" className="right hide-on-med-and-down">
                 <li><a href="#about-me">About Me</a></li>
                 <li><a href="#projects-container">Projects</a></li>
-                <li><a href="collapsible.html">Contact Me</a></li>
+                <li><a href="#contact-container">Contact</a></li>
             </ul>
 
             <ul id="mobile-demo" className="sidenav">
@@ -41,7 +41,7 @@ export default function Nav() {
                     </div></li>
                 <li><a href="#about-me">About Me</a></li>
                 <li><a href="#projects-container">Projects</a></li>
-                <li><a href="collapsible.html">Contact Me</a></li>
+                <li><a href="#contact-container">Contact</a></li>
             </ul>
         </nav>
     )

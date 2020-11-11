@@ -28,6 +28,10 @@
     transform: scale(1.5);
 }
 
+#nav-mobile a{
+    color: rgb(90, 90, 90);
+
+}
 
 /* WORKING ON THE SIDE BAR */
 #nav-mobile{

@@ -1,0 +1,23 @@
+
+#contact-container{
+    background-color: rgb(238, 238, 238);
+    text-align: center;
+    padding: 50px 12px;
+    margin: 25px 0;
+}
+
+.contact-title{
+    font-weight: 200;
+}
+
+#contact-container p {
+    font-size: 1.2em;
+    width: 80%;
+    margin: auto;
+    font-weight: 300;
+    max-width: 800px;
+}
+
+.contact-info-paragraph{
+    font-weight: 500;
+}
