@@ -3,6 +3,7 @@
     /* background-color: #EBEBEB; */
     color: rgb(73, 73, 73);
     min-height: 500px;
+    margin-bottom: 120px;
 }
 #projects-container h2{
     text-align: center;
