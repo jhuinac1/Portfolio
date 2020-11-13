@@ -58,18 +58,20 @@
 .project-title{
     text-align: center;
     margin: 0;
-    margin-top: 5px;
+    margin-top: 15px;
 }
 
 .project-description{
     padding: 12px;
     text-align: justify;
-    line-height: 1.2;
+    line-height: 1.4;
+    color: rgb(110, 110, 110);
 }
 
 /* project background images */
 .image-one{
-    background-image: url("../images/projects/wine-app.png");
+    background-image: url("../images/projects/wine-app-2.png");
+    background-position: center;
 }
 .image-two{
     background-image: url("../images/projects/food-recipe.png");
