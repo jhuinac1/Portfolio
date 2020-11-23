@@ -28,7 +28,7 @@ export default function Nav() {
                 <li><a href="#about-me">About Me</a></li>
                 <li><a href="#projects-container">Projects</a></li>
                 <li><a href="#contact-container">Contact</a></li>
-                <li><a href="https://drive.google.com/file/d/14r0chsO5ggZtX62ub7a-yQQRYWW5MGFr/view?usp=sharing" target="_blank">Resume</a></li>
+                <li><a href="https://drive.google.com/file/d/1J99w3LK8BIf-l8m0XlWySjpvnAkPw6m9/view?usp=sharing" target="_blank">Resume</a></li>
             </ul>
 
             <ul id="mobile-demo" className="sidenav">
@@ -43,7 +43,7 @@ export default function Nav() {
                 <li><a href="#about-me">About Me</a></li>
                 <li><a href="#projects-container">Projects</a></li>
                 <li><a href="#contact-container">Contact</a></li>
-                <li><a href="https://drive.google.com/file/d/14r0chsO5ggZtX62ub7a-yQQRYWW5MGFr/view?usp=sharing" target="_blank">Resume</a></li>
+                <li><a href="https://drive.google.com/file/d/1J99w3LK8BIf-l8m0XlWySjpvnAkPw6m9/view?usp=sharing" target="_blank">Resume</a></li>
             </ul>
         </nav>
     )
