@@ -1,2 +1,2 @@
 # Portfolio
-This project was created using Create Reach app and Materialize
+This project was created using React and Materialize
