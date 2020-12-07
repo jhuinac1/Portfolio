@@ -16,8 +16,8 @@
 .nav-title h4{
     margin: 0;
     padding: 0;
-    color: rgb(32, 32, 32);
-    font-weight: 700;
+    color: rgb(66, 66, 66);
+    font-weight: 400;
 }
 
 .sidenav-trigger{
@@ -25,6 +25,7 @@
 }
 /* burger icon */
 .burger-icon{
+    z-index: 0;
     transform: scale(1.5);
 }
 
@@ -42,6 +43,7 @@
 }
 
 nav a{
+    z-index: 0;
     color: rgb(107, 107, 107);
 }
 
@@ -53,13 +55,13 @@ nav a{
 }
 .user-view a{
     position: relative;
-    z-index: 1;
+    z-index: 0;
 }
 
 
 .sidenav-pic{
     position: relative;
-    z-index: 1;
+    /* z-index: ; */
     background-image: url("../images/self-pic1.png");
     background-size: cover;
     width: 80px;
